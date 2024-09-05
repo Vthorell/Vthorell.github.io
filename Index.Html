@@ -1,29 +1,100 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <title>Min första hemsida</title>
- <style>
-    div {
-        width: 500px;
-        margin: 0 auto;
+<head>
+  <link rel="icon" type="image/jpg" href="images/minion.jpg">
+  <title>Minions</title>
+  <style>
+    h1, h2 {
+      text-align: center;
     }
- </style>
+    h1 {
+      text-transform: uppercase;
+    }
+    p {
+      text-align: center;
+    }
+    img, audio, video{
+      display: block;
+      width: 100%;
+    }
+    table {
+      width: 100%;
+    }
+    th {text-align: left;
+    }
+    label, input, textarea {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    textarea {
+resize: none;
+    }
+  </style>
+  
+  <h1>Välkommen till min sida</h1>
+
+  <br>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cupiditate nulla, soluta eaque facere neque repellendus obcaecati ab dolores! Soluta distinctio neque deleniti accusantium debitis ea doloremque quam officia similique!</p>
+
+  <br>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam animi doloribus doloremque neque, blanditiis corrupti optio reiciendis ab cum iusto, ipsam expedita temporibus veniam dignissimos delectus odio minima! Ea, ab.</p>
+
+  <img src="images/minion.jpg" alt="en minion" width="500px">
+<audio src="https://www.televisiontunes.com/uploads/audio/Benny%20Hill%20Show.mp3" controls></audio>
+<h2>Mina intressen</h2>
+
+<br>
+
+<p>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt dignissimos quasi magnam voluptates! Expedita nesciunt, error aliquid molestias hic a rem autem ab consectetur. Voluptate ducimus itaque blanditiis minus aspernatur.
+</p>
+
+<ul>
+  <li>Trav</li>
+  <li>Fotboll</li>
+  <li>Öl</li>
+</ul>
+
+<video src="https://dl6.webmfiles.org/big-buck-bunny_trailer.webm" controls></video>
+
+<h2>Favorit film</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Film</th>
+      <th>IMDB Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kungfupanda</td>
+      <td>7,6</td>
+    </tr>
+    <tr>
+      <td>shooter</td>
+      <td>7,1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Kontakta mig</h2>
+
+<form action="https://httpbin.org/get">
+  <lable>namn</lable>
+  <input type="text" name="name" id="name" placeholder="Ange namn" required maxlength="25">
+
+  <label>Meddelande</label>
+  <textarea name="message" placeholder="Ange meddelande"></textarea>
+
+   <button>Skicka</button>
+</form>
+
 </head>
-  <body>
-    <div>
-      <h1>Välkommen till min sida</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-        consequuntur.
-      </p>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, nulla!
-      </p>
-      <img src="OIP.jpg" alt="en lidl tröja" />
-      <h2>Mina intressen</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, optio.
-      </p>
-    </div>
-  </body>
+<body>
+
+</body>
 </html>
